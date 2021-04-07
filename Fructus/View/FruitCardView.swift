@@ -23,18 +23,18 @@ struct FruitCardView: View {
           .resizable()
           .scaledToFit()
             .shadow(color: Color.green, radius: 25, x: 15, y: 8)
-          .scaleEffect(isAnimating ? 1.0 : 0.6)
+          .scaleEffect(isAnimating ? 1.0 : 0.8)
         
         // FRUIT: TITLE
         Text(fruit.title)
           .foregroundColor(Color.white)
           .font(.largeTitle)
           .fontWeight(.heavy)
-          .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 1), radius: 25, x: 6, y: 2)
+          .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 1), radius: 20, x: 6, y: 2)
         
         // FRUIT: HEADLINE
         Text(fruit.headline)
-          .foregroundColor(Color.orange)
+          .foregroundColor(Color.gray)
           .multilineTextAlignment(.center)
           .padding(.horizontal, 16)
           .frame(maxWidth: 480)
