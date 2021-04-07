@@ -22,7 +22,7 @@ struct FruitCardView: View {
         Image(fruit.image)
           .resizable()
           .scaledToFit()
-            .shadow(color: Color.red, radius: 25, x: 15, y: 8)
+            .shadow(color: Color.green, radius: 25, x: 15, y: 8)
           .scaleEffect(isAnimating ? 1.0 : 0.6)
         
         // FRUIT: TITLE
