@@ -30,11 +30,11 @@ struct FruitCardView: View {
           .foregroundColor(Color.white)
           .font(.largeTitle)
           .fontWeight(.heavy)
-          .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.15), radius: 2, x: 2, y: 2)
+          .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 1), radius: 25, x: 6, y: 2)
         
         // FRUIT: HEADLINE
         Text(fruit.headline)
-          .foregroundColor(Color.white)
+          .foregroundColor(Color.orange)
           .multilineTextAlignment(.center)
           .padding(.horizontal, 16)
           .frame(maxWidth: 480)
