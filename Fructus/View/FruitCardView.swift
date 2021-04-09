@@ -22,7 +22,7 @@ struct FruitCardView: View {
         Image(fruit.image)
           .resizable()
           .scaledToFit()
-            .shadow(color: Color.black, radius: 25, x: 15, y: 8)
+            .shadow(color: Color.yellow, radius: 25, x: 15, y: 8)
           .scaleEffect(isAnimating ? 1.0 : 0.8)
         
         // FRUIT: TITLE
@@ -60,6 +60,6 @@ struct FruitCardView: View {
 struct FruitCardView_Previews: PreviewProvider {
   static var previews: some View {
     FruitCardView(fruit: fruitsData[1])
-        .previewDevice("iPhone 11")
+        .previewDevice("iPhone 12")
   }
 }
