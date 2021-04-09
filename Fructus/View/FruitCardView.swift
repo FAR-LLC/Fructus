@@ -22,7 +22,7 @@ struct FruitCardView: View {
         Image(fruit.image)
           .resizable()
           .scaledToFit()
-            .shadow(color: Color.red, radius: 25, x: 15, y: 8)
+            .shadow(color: Color.blue, radius: 25, x: 15, y: 8)
           .scaleEffect(isAnimating ? 1.0 : 0.8)
         
         // FRUIT: TITLE
@@ -34,7 +34,7 @@ struct FruitCardView: View {
         
         // FRUIT: HEADLINE
         Text(fruit.headline)
-          .foregroundColor(Color.gray)
+          .foregroundColor(Color.orange)
           .multilineTextAlignment(.center)
           .padding(.horizontal, 16)
           .frame(maxWidth: 480)
@@ -60,6 +60,6 @@ struct FruitCardView: View {
 struct FruitCardView_Previews: PreviewProvider {
   static var previews: some View {
     FruitCardView(fruit: fruitsData[1])
-        .previewDevice("iPhone 12")
+        .previewDevice("iPhone X")
   }
 }
