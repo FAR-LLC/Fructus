@@ -34,7 +34,7 @@ struct FruitCardView: View {
         
         // FRUIT: HEADLINE
         Text(fruit.headline)
-          .foregroundColor(Color.black)
+          .foregroundColor(Color.yellow)
           .multilineTextAlignment(.center)
           .padding(.horizontal, 16)
           .frame(maxWidth: 480)
