@@ -60,6 +60,6 @@ struct FruitCardView: View {
 struct FruitCardView_Previews: PreviewProvider {
   static var previews: some View {
     FruitCardView(fruit: fruitsData[1])
-        .previewDevice("iPhone Xs Max")
+        .previewDevice("iPhone 11 Pro Max")
   }
 }
