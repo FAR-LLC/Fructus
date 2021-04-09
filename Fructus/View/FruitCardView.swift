@@ -27,7 +27,7 @@ struct FruitCardView: View {
         
         // FRUIT: TITLE
         Text(fruit.title)
-          .foregroundColor(Color.orange)
+          .foregroundColor(Color.blue)
           .font(.largeTitle)
           .fontWeight(.heavy)
           .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 1), radius: 20, x: 6, y: 2)
